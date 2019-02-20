@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<objects>
+  <object id="GoodRepository" name="GoodRepository"
+      type="odec.Store.DAL.Blob.GoodRepository, odec.Store.DAL">
+  </object>
+  <object id="StoreRepository" name="StoreRepository"
+      type="odec.Store.DAL.Blob.StoreRepository, odec.Store.DAL">
+  </object>
+</objects>

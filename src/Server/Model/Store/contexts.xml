@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <object id="StoreContext" name="StoreContext" 
+      type="odec.Server.Model.Store.Contexts.StoreContext.Blob, odec.Server.Model.Store" singleton="true">
+  </object>
+</objects>
