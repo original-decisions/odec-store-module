@@ -18,14 +18,17 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
     <packagereference Include="NUnit3TestAdapter" Version="3.12.0"></packagereference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.*" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.*" />
+    
     <PackageReference Include="odec.Framework" Version="1.1.*" />
     <PackageReference Include="odec.CP.Server.Model.Secure.Attachment" Version="1.1.*" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' Or '$(TargetFramework)' == 'netcoreapp1.0' ">
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.*" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
     <Reference Include="System" />
