@@ -6,7 +6,6 @@
     <TargetFrameworks>netcoreapp1.0;net452;netcoreapp2.1</TargetFrameworks>
     <AssemblyName>CP.Store.DAL.Tests</AssemblyName>
     <PackageId>CP.Store.DAL.Tests</PackageId>
-    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
